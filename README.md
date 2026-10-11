@@ -8,18 +8,18 @@ You direct, the AI builds. Each video is a complete follow-along recorded on a r
 
 | # | Video | What you build |
 |---|---|---|
-| 1 | [How to start vibe coding for free for beginners!](https://youtu.be/EryUxT0FQbE) | The free setup on Windows (Ubuntu on WSL, VS Code, GitHub Copilot's free plan) and a to-do list app |
-| 2 | [How to vibe code a game with one prompt!](https://youtu.be/9-KWuFBE6gQ) | A neon space shooter from one prompt, a real bug fixed, then a boss fight |
-| 3 | [Vibe Coding Basics: How an App Is Built](https://youtu.be/iIdb50QHiIk) | A neon beat maker, and what an app is made of: dependencies, the dev server, the production build |
-| 4 | [Web App vs Native App: Which Should You Build?](https://youtu.be/EhQKgI5RnQQ) | A kaleidoscope drawing app you can install and use offline, then wrapped as an Android project |
-| 5 | [Go Beyond Free Vibe Coding and build AMAZING games with Claude Code in VS Code!](https://youtu.be/HwdwHNtn0EE) | Skyhold, a 3D tower defense game, built by Claude Code from one plan |
-| 6 | [How to Set Up a Secure Server with AI: SSH Keys, Firewall and fail2ban](https://youtu.be/PuJtWFCcjj8) | Your own server on the internet, secured by Claude over SSH |
-| 7 | [How to Host a Browser Game on Your Own Server with Claude Code (Caddy + HTTPS)](https://youtu.be/WfWYY4RFxWA) | Skyhold online with HTTPS on your own server |
+| 1 | [How to Start Vibe Coding for FREE! Easy VS Code + GitHub Copilot Setup for Beginners (2026)](https://youtu.be/EryUxT0FQbE) | The free setup on Windows (Ubuntu on WSL, VS Code, GitHub Copilot's free plan) and a to-do list app |
+| 2 | [How to Vibe Code a Game with ONE Prompt! (FREE with GitHub Copilot, No Coding)](https://youtu.be/9-KWuFBE6gQ) | A neon space shooter from one prompt, a real bug fixed, then a boss fight |
+| 3 | [Vibe Coding Basics Nobody Explains! What node_modules, package.json and npm ACTUALLY Do](https://youtu.be/iIdb50QHiIk) | A neon beat maker, and what an app is made of: dependencies, the dev server, the production build |
+| 4 | [Web App vs Native App: Don't Build the WRONG One! (PWA Explained for Beginners)](https://youtu.be/EhQKgI5RnQQ) | A kaleidoscope drawing app you can install and use offline, then wrapped as an Android project |
+| 5 | [How to Use Claude Code in VS Code: Build an AMAZING 3D Game with Plan Mode!](https://youtu.be/HwdwHNtn0EE) | Skyhold, a 3D tower defense game, built by Claude Code from one plan |
+| 6 | [How to Set Up and Secure a VPS the EASY Way! Claude Code Does It for You (SSH Keys, Firewall)](https://youtu.be/PuJtWFCcjj8) | Your own server on the internet, secured by Claude over SSH |
+| 7 | [How to Host a Website on a VPS with Claude Code! Your Game LIVE on Your Own Domain (FREE HTTPS)](https://youtu.be/WfWYY4RFxWA) | Skyhold online with HTTPS on your own server |
 
 Videos 1 to 4 use GitHub Copilot's free plan in VS Code. Videos 5 to 7 use Claude Code (a paid plan).
 Play the game from videos 5 and 7: https://tdgame.amplifiedarchitect.com
 
-## 1. How to start vibe coding for free for beginners!
+## 1. How to Start Vibe Coding for FREE! Easy VS Code + GitHub Copilot Setup for Beginners (2026)
 
 Watch: https://youtu.be/EryUxT0FQbE
 
@@ -43,7 +43,7 @@ Make the buttons bigger.
 Save my tasks so they're still there tomorrow.
 ```
 
-## 2. How to vibe code a game with one prompt!
+## 2. How to Vibe Code a Game with ONE Prompt! (FREE with GitHub Copilot, No Coding)
 
 Watch: https://youtu.be/9-KWuFBE6gQ
 
@@ -63,7 +63,7 @@ When I shoot, the bullets go down instead of up, so I can't hit anything. Please
 Add a boss fight after the first wave, and missile upgrades that drop from destroyed enemies.
 ```
 
-## 3. Vibe Coding Basics: How an App Is Built
+## 3. Vibe Coding Basics Nobody Explains! What node_modules, package.json and npm ACTUALLY Do
 
 Watch: https://youtu.be/iIdb50QHiIk
 
@@ -117,7 +117,7 @@ Try the production build:
 npm run preview
 ```
 
-## 4. Web App vs Native App: Which Should You Build?
+## 4. Web App vs Native App: Don't Build the WRONG One! (PWA Explained for Beginners)
 
 Watch: https://youtu.be/EhQKgI5RnQQ
 
@@ -147,7 +147,7 @@ Run it on your computer (then install it from the browser's address bar):
 npm run preview
 ```
 
-## 5. Go Beyond Free Vibe Coding and build AMAZING games with Claude Code in VS Code!
+## 5. How to Use Claude Code in VS Code: Build an AMAZING 3D Game with Plan Mode!
 
 Watch: https://youtu.be/HwdwHNtn0EE
 
@@ -197,7 +197,7 @@ Run the game, then open the address it shows:
 npm run dev
 ```
 
-## 6. How to Set Up a Secure Server with AI: SSH Keys, Firewall and fail2ban
+## 6. How to Set Up and Secure a VPS the EASY Way! Claude Code Does It for You (SSH Keys, Firewall)
 
 Watch: https://youtu.be/PuJtWFCcjj8
 
@@ -227,7 +227,7 @@ Root should now be turned away:
 ssh root@myserver
 ```
 
-## 7. How to Host a Browser Game on Your Own Server with Claude Code (Caddy + HTTPS)
+## 7. How to Host a Website on a VPS with Claude Code! Your Game LIVE on Your Own Domain (FREE HTTPS)
 
 Watch: https://youtu.be/WfWYY4RFxWA
 

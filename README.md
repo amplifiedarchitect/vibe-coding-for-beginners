@@ -15,8 +15,10 @@ You direct, the AI builds. Each video is a complete follow-along recorded on a r
 | 5 | [How to Use Claude Code in VS Code: Build an AMAZING 3D Game with Plan Mode!](https://youtu.be/HwdwHNtn0EE) | Skyhold, a 3D tower defense game, built by Claude Code from one plan |
 | 6 | [How to Set Up and Secure a VPS the EASY Way! Claude Code Does It for You (SSH Keys, Firewall)](https://youtu.be/PuJtWFCcjj8) | Your own server on the internet, secured by Claude over SSH |
 | 7 | [How to Host a Website on a VPS with Claude Code! Your Game LIVE on Your Own Domain (FREE HTTPS)](https://youtu.be/WfWYY4RFxWA) | Skyhold online with HTTPS on your own server |
+| 8 | [How to use a local AI Agent FREE on an 8 GB GPU: Ollama + Claude Code for Beginners](https://youtu.be/8B9O0B-Pl3c) | A free AI agent that runs on your own graphics card with Ollama, and a fireworks show it builds and then fixes |
+| 9 | [Git and GitHub for Beginners: NEVER Lose Your Work Again! (Claude Code Runs Every Command)](https://youtu.be/1aEvIcyBDmg) | Save points for your project with Git and GitHub, used for real while Claude Code builds a website with an email signup list and member logins |
 
-Videos 1 to 4 use GitHub Copilot's free plan in VS Code. Videos 5 to 7 use Claude Code (a paid plan).
+Videos 1 to 4 use GitHub Copilot's free plan in VS Code. Videos 5 to 7 and video 9 use Claude Code (a paid plan). Video 8 runs a local model with Ollama, free on your own graphics card.
 Play the game from videos 5 and 7: https://tdgame.amplifiedarchitect.com
 
 ## 1. How to Start Vibe Coding for FREE! Easy VS Code + GitHub Copilot Setup for Beginners (2026)
@@ -253,6 +255,121 @@ Build and upload a new version:
 
 ```bash
 npm run deploy
+```
+
+## 8. How to use a local AI Agent FREE on an 8 GB GPU: Ollama + Claude Code for Beginners
+
+Watch: https://youtu.be/8B9O0B-Pl3c
+
+A free AI agent that runs on your own graphics card with Ollama, and a fireworks show it builds and then fixes.
+
+**Prompts**
+
+```text
+What graphics card does this computer have?
+```
+
+```text
+Build a fireworks show that runs in my browser, in a single file called index.html. A dark night sky with stars, rockets that launch where I click and burst into bright colorful sparks with trails that fall with gravity, and an automatic show when I'm not clicking. Make it crisp and vivid, no blur filters.
+```
+
+```text
+The fireworks freeze right after they start. The browser console says: Uncaught IndexSizeError, the radius provided is negative, at index.html line 114. Fix it.
+```
+
+```text
+In index.html, the firework bursts are too small and fade too fast. Make every burst about three times bigger with twice as many sparks, brighter colors, and trails that glow longer. Only change the file.
+```
+
+**Commands**
+
+Install Ollama in Ubuntu:
+
+```bash
+sudo apt install zstd
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+Download the model and chat with it:
+
+```bash
+ollama pull ornith:9b
+ollama run ornith:9b
+```
+
+Inside the chat: a bigger context, saved as your own version of the model:
+
+```text
+/set parameter num_ctx 32768
+/save ornith-agent
+/bye
+```
+
+Open Ollama's menu and launch the agent:
+
+```bash
+ollama
+```
+
+Open the page the agent built (from Ubuntu, in your Windows browser):
+
+```bash
+explorer.exe index.html
+```
+
+## 9. Git and GitHub for Beginners: NEVER Lose Your Work Again! (Claude Code Runs Every Command)
+
+Watch: https://youtu.be/1aEvIcyBDmg
+
+Save points for your project with Git and GitHub, used for real while Claude Code builds a website with an email signup list and member logins.
+
+**Prompts**
+
+```text
+Build the website for my brand, Amplified Architect. Read brand.md first: it has our colors, fonts, wording and video list, and the brand folder has our logo and video thumbnails. Use Node.js with Express, because we'll add an email signup list and member logins next. Start with the landing page: a bold hero with our headline, what you'll learn, our videos as cards with their thumbnails, our game Skyhold, and a footer. Make it look like a premium product launch page: dark, crisp and confident, with big type, generous spacing, subtle motion and hover effects, and make it work just as well on a phone. No blur or glow filters over text. Don't open a browser. When it's done, start it and tell me the address.
+```
+
+```text
+Set up Git for this project and save everything as the first save point.
+```
+
+```text
+Now add the email signup list to the landing page. When someone enters their email, save it in a SQLite database file in a data folder and show a friendly confirmation right on the page. Refuse anything that isn't an email address, and don't add the same address twice. We'll send real confirmation emails later, when the site goes live.
+```
+
+```text
+What changed since the last save point? In plain words, and keep it short.
+```
+
+```text
+Save this as the next save point.
+```
+
+```text
+Now add member logins. People create an account with their email and a password, then log in and log out. Members get a private page called My Path, with our eight videos as steps they can check off and a progress bar, saved to their account. Hash the passwords, keep the session secret in a .env file, and use the same database.
+```
+
+```text
+Save this as the next save point, and push it to GitHub.
+```
+
+```text
+I deleted the views folder by accident. Bring it back from the last save point.
+```
+
+**Commands**
+
+Is Git there? (Ubuntu comes with it):
+
+```bash
+git --version
+```
+
+Tell Git who you are, once per computer (the email: your private address from GitHub, Settings, Emails):
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-private-address@users.noreply.github.com"
 ```
 
 ---
